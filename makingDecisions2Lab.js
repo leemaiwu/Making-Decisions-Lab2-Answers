@@ -153,7 +153,25 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
-
+switch (letterGrade) {
+  case "A":
+    console.log("The student is doing excellently.")
+    break
+  case "B":
+    console.log("The student is doing well.")
+    break
+  case "C":
+    console.log("The student is doing alright.")
+    break
+  case "D":
+    console.log("The student is not doing very well.")
+    break
+  case "F":
+    console.log("The student is failing.")
+    break
+  default:
+    console.log("Not an eligible grade.")
+}
 
 
 ////////// PROBLEM 11 //////////
@@ -181,3 +199,14 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+for (let x = 1; x <= 100; x++) {
+  if (x % 15 === 0) {
+    console.log("devmountain")
+  } else if (x % 3 === 0) {
+    console.log("Dev")
+  } else if (x % 5 === 0) {
+    console.log("mountain")
+  } else {
+    console.log(x)
+  }
+}
